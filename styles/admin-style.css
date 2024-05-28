@@ -1,0 +1,101 @@
+@font-face {
+    font-family: familjen;
+    src: url(./fonts/familjen/FamiljenGrotesk-VariableFont_wght.ttf);
+}
+
+*{
+    font-family: familjen;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 0;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header > a{
+    text-decoration: none;
+    color: rgb(203, 236, 19);
+    padding: 12px;
+}
+
+header > a:hover{
+    
+    background-color: rgb(239, 251, 148);
+    color: rgba(211, 226, 126, 0.864);
+}
+
+article{
+    margin: 12px;
+    padding: 30px;
+}
+
+article >.choice > a > button{
+    padding: 30px;
+    font-size: 20px;
+    margin: 12px;
+    background-color: rgb(34, 199, 34);
+    color: white;
+    border: 1px solid white;
+    border-radius: 18px;
+}
+
+article >.choice > a > button:hover{
+    background-color: rgba(34, 199, 34, 0.58);
+}
+
+.butn{
+    background-color: rgb(6, 91, 6);
+    color: white;
+    font-size: 20px;
+}
+
+.butn:hover{
+    background-color: rgba(6, 91, 6, 0.543);
+}
+
+.ground{
+    display: inline-block;
+    padding: 20px;
+    border: 2px solid black;
+    font-size: 30px;
+}
+
+.ground input{
+    padding: 15px;
+    font-size: 18px;
+}
+
+/*#add{
+    display: none;
+}
+
+#delete{
+    display: none;
+}
+
+#modify{
+    display: none;
+}
+*/
+#request{
+    font-size: 15px;
+}
+
+#request table tr th{
+    padding: 12px;
+}
+/*
+#search{
+    display: none;
+
+}*/
